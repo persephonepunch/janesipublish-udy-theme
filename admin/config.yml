@@ -402,9 +402,9 @@
       ]
     },
     {
-      "name": "community-posts",
-      "label": "Community posts",
-      "folder": "site/community-posts",
+      "name": "shop",
+      "label": "Shop",
+      "folder": "site/shop",
       "create": true,
       "slug": "{{slug}}",
       "editor": {
@@ -420,7 +420,7 @@
           "label": "Tags",
           "widget": "hidden",
           "name": "tags",
-          "default": "community-posts"
+          "default": "shop"
         },
         {
           "label": "Slug",
@@ -437,7 +437,7 @@
           "label": "Layout",
           "widget": "hidden",
           "name": "layout",
-          "default": "single-community-posts.html"
+          "default": "single-shop.html"
         },
         {
           "label": "Seo",
@@ -503,9 +503,9 @@
       ]
     },
     {
-      "name": "shop",
-      "label": "Shop",
-      "folder": "site/shop",
+      "name": "collection",
+      "label": "Collection",
+      "folder": "site/collection",
       "create": true,
       "slug": "{{slug}}",
       "editor": {
@@ -521,7 +521,7 @@
           "label": "Tags",
           "widget": "hidden",
           "name": "tags",
-          "default": "shop"
+          "default": "collection"
         },
         {
           "label": "Slug",
@@ -538,7 +538,7 @@
           "label": "Layout",
           "widget": "hidden",
           "name": "layout",
-          "default": "single-shop.html"
+          "default": "single-collection.html"
         },
         {
           "label": "Seo",
